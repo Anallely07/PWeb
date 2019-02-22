@@ -1,6 +1,112 @@
+/*MEDIA*/
+
+@media (min-height: 0px) {
+    .image-flip:active .backside,
+    .image-flip.hover .backside {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+        border-radius: .25rem;
+    }
+
+    .image-flip:active .frontside,
+    .image-flip.hover .frontside {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+   
+}
+
+@media (min-height: 400px) {
+    .image-flip:active .backside,
+    .image-flip.hover .backside {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+        border-radius: .25rem;
+    }
+
+    .image-flip:active .frontside,
+    .image-flip.hover .frontside {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    
+
+}
+
+@media (min-height: 568px) {
+    .image-flip:hover .backside,
+    .image-flip:hover .backside {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+        border-radius: .25rem;
+    }
+
+    .image-flip:hover .frontside,
+    .image-flip.hover .frontside {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+}
+@media (min-height: 992px) {
+    .image-flip:hover .backside,
+    .image-flip.hover .backside {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+        border-radius: .25rem;
+    }
+
+    .image-flip:hover .frontside,
+    .image-flip.hover .frontside {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+}
+@media (min-height: 1200px) {
+   .image-flip:hover .backside,
+   .image-flip.hover .backside {
+       -webkit-transform: rotateY(0deg);
+       -moz-transform: rotateY(0deg);
+       -o-transform: rotateY(0deg);
+       -ms-transform: rotateY(0deg);
+       transform: rotateY(0deg);
+       border-radius: .25rem;
+   }
+
+   .image-flip:hover .frontside,
+   .image-flip.hover .frontside {
+       -webkit-transform: rotateY(180deg);
+       -moz-transform: rotateY(180deg);
+       -o-transform: rotateY(180deg);
+       transform: rotateY(180deg);
+   }
+}
+
+
+
 .btn-primary {
     background-color:#2f3360;
     border: none;
+    font-size: 1.3rem;
 }
 
 .btn-primary:hover{
@@ -10,6 +116,13 @@
 
 section {
     padding: 10px 0;
+    font-size: 1.3rem;
+    font-family: 'Harmattan', sans-serif;
+}
+
+section h4{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 #team .card {
@@ -17,23 +130,7 @@ section {
     background: #eee;
 }
 
-.image-flip:active .backside,
-.image-flip.hover .backside {
-    -webkit-transform: rotateY(0deg);
-    -moz-transform: rotateY(0deg);
-    -o-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-    border-radius: .25rem;
-}
 
-.image-flip:active .frontside,
-.image-flip.hover .frontside {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
 
 .mainflip {
     -webkit-transition: .5s;
@@ -95,7 +192,7 @@ section {
 }
 
 .backside .card a {
-    font-size: 18px;
+    font-size: 1.3rem;
     color: white !important;
 }
 
