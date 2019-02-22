@@ -1,3 +1,5 @@
+/*NAV*/
+
 .navbar{
 	background-color:  #2f3360;
 }
@@ -5,6 +7,8 @@
 .nav-link{
 	color: white;
 }
+
+/*NAV*/
 
 /*CAROUSEL*/
 
@@ -27,26 +31,31 @@
 
 .carousel-caption{
   background-color: rgba(0,0,0,.5);
-  top:30%;
+  top:20%;
 }
 
-h1{
-  font-size: 8vw;
-  font-family: 'Staatliches', cursive;
-  letter-spacing: .2em;
-}
 
- h5{
-  font-size: 4vw;
-  font-family: 'Staatliches', cursive;
-  letter-spacing: .2em;
-}
+/*CAROUSEL*/
 
 /*FOOTER*/
-.page-footer{
+footer{
 	padding: 1rem;
 	background-color: #2f3360;
 	color: #e7c810;
-	text-align: center;
 	font-family: 'Harmattan', sans-serif;
+	text-align: center;
 }
+
+.copyright{
+	background-color: black;
+	font-family: 'Harmattan', sans-serif;
+	text-align: center;
+	padding: 1rem;
+	color: white;
+}
+
+.iconos{
+	margin: 0 .5rem;
+}
+
+/*FOOTER*/
