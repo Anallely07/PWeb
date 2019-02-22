@@ -1,33 +1,16 @@
-#team {
-    background: white !important;
-}
-
-.btn-primary:hover,
-.btn-primary:focus {
-    background-color: #108d6f;
-    border-color: #108d6f;
-}
-
 .btn-primary {
-    color: #fff;
-    background-color: #007b5e;
-    border-color: #007b5e;
+    color: white;
+    background-color:#2f3360;
+    border-color:#2f3360;
 }
 
 section {
     padding: 10px 0;
 }
 
-section .section-title {
-    text-align: center;
-    color: #007b5e;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-}
-
 #team .card {
     border: none;
-    background: #ffffff;
+    background: #eee;
 }
 
 .image-flip:hover .backside,
@@ -49,14 +32,14 @@ section .section-title {
 }
 
 .mainflip {
-    -webkit-transition: 1s;
+    -webkit-transition: .5s;
     -webkit-transform-style: preserve-3d;
-    -ms-transition: 1s;
-    -moz-transition: 1s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
     -moz-transform: perspective(1000px);
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
-    transition: 1s;
+    transition: .5s;
     transform-style: preserve-3d;
     position: relative;
 }
@@ -114,7 +97,7 @@ section .section-title {
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #2f3360 !important;
 }
 
 .frontside .card .card-body img {
