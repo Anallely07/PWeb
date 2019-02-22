@@ -11,7 +11,7 @@
 	margin-left: 1rem;
 }
 
-/*NAV*/
+/*TERMINA NAV*/
 
 /*CAROUSEL*/
 
@@ -37,19 +37,35 @@
   top:20%;
 }
 
-h1{
+.carousel h1{
   font-family: 'Staatliches', cursive;
-  letter-spacing: .2em;
+  letter-spacing: .3em;
 }
 
- h5{
+.carousel h5{
   font-family: 'Staatliches', cursive;
   letter-spacing: .2em;
+  color: #e7c810;
 }
 
+.carousel h6{
+  font-family: 'Staatliches', cursive;
+  letter-spacing: .2em;
+  color: white;
+}
 
+/*TERMINA CAROUSEL*/
 
-/*CAROUSEL*/
+/*INDEX*/
+
+.titulos{
+
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+}
+
+/*TERMINA INDEX*/
+
 
 /*FOOTER*/
 footer{
@@ -72,4 +88,4 @@ footer{
 	margin: 0 .5rem;
 }
 
-/*FOOTER*/
+/*TERMINA FOOTER*/

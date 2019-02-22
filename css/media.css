@@ -5,8 +5,16 @@
 		font-size: 1.8rem;
 	}
 	.carousel h5{
-		font-size: 1.3rem;
+		font-size: 1.5rem;
 		padding-top: 3rem;
+	}
+	.carousel h6{
+		font-size: 1.5rem;
+		padding-top: 1.5rem;
+	}
+	.titulos h2{
+		font-size: 1.5rem;
+		margin: 1rem 0;	
 	}
 
 
@@ -21,10 +29,17 @@
 		font-size: 1.8rem;
 	}
 	.carousel h5{
-		font-size: 1.3rem;
+		font-size: 1.5rem;
 		padding-top: 3rem;
 	}
-
+	.carousel h6{
+		font-size: 1.5rem;
+		padding-top: 1.5rem;
+	}
+	.titulos h2{
+		font-size: 1.5rem;
+		margin: 1rem 0;	
+	}
 
 	footer, .copyright{
 		font-size: .85rem;
@@ -34,11 +49,19 @@
 
 @media (min-height: 568px) {
 	.carousel h1{
-		font-size: 2.5rem;
+		font-size: 3.5rem;
 	}
-	.carousel h5{
-		font-size: 1.5rem;
+	.carousel h5, .carousel h6{
+		font-size: 2.8rem;
 		padding-top: 3rem;
+	}
+	.carousel h6{
+		font-size: 2.8rem;
+		padding-top: 1.5rem;
+	}
+	.titulos h2{
+		font-size: 2.8rem;
+		margin: 1.5rem 0;	
 	}
 	footer, .copyright{
 		font-size: 1rem;
@@ -46,11 +69,19 @@
 }
 @media (min-height: 992px) {
 	.carousel h1{
-		font-size: 3.5rem;
+		font-size: 4rem;
 	}
 	.carousel h5{
-		font-size: 2.3rem;
+		font-size: 3rem;
 		padding-top: 3rem;
+	}
+	.carousel h6{
+		font-size: 3rem;
+		padding-top: 1.5rem;
+	}
+	.titulos h2{
+		font-size: 3rem;
+		margin: 2rem 0;
 	}
 	footer, .copyright{
 		font-size: 1rem;
@@ -58,11 +89,19 @@
 }
 @media (min-height: 1200px) {
 	.carousel h1{
-		font-size: 3.8rem;
+		font-size: 4.5rem;
 	}
 	.carousel h5{
-		font-size: 2.3rem;
+		font-size: 3rem;
 		padding-top: 3rem;
+	}
+	.carousel h6{
+		font-size: 3rem;
+		padding-top: 1.5rem;
+	}
+	.titulos h2{
+		font-size: 3rem;
+		margin: 2rem 0;
 	}
 	footer{
 		font-size: 1.3rem;
