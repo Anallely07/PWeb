@@ -1,7 +1,11 @@
 .btn-primary {
-    color: white;
     background-color:#2f3360;
-    border-color:#2f3360;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color:#2f3360;
+    border: none;
 }
 
 section {
@@ -92,7 +96,7 @@ section {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: white !important;
 }
 
 .frontside .card .card-title,
@@ -104,4 +108,25 @@ section {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+}
+
+.btntemario{
+    margin-bottom: .5rem;
+    background-color: #C93C3E;
+    color: black;
+    font-weight: bold;
+}
+
+.btntemario:hover{
+    margin-bottom: .5rem;
+    background-color: #DB5756;
+}
+
+.btnregistro{
+    background-color: #B0CC41 ;
+    color: black;
+    font-weight: bold;
+}
+.btnregistro:hover{
+    background-color: #BCD97B;
 }
