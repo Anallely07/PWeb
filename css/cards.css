@@ -17,7 +17,7 @@ section {
     background: #eee;
 }
 
-.image-flip:hover .backside,
+.image-flip:active .backside,
 .image-flip.hover .backside {
     -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
@@ -27,7 +27,7 @@ section {
     border-radius: .25rem;
 }
 
-.image-flip:hover .frontside,
+.image-flip:active .frontside,
 .image-flip.hover .frontside {
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
