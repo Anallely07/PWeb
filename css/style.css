@@ -120,6 +120,25 @@
 /*TERMINA INDEX*/
 
 
+/*PUBLICACIONES*/
+
+.left{
+	text-align: left;
+}
+
+.search{
+	font-family: 'Harmattan', sans-serif;
+}
+
+.titulopublicaciones{
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	margin-top: 1rem;
+}
+
+/*./PUBLICACIONES*/
+
+
 /*FOOTER*/
 footer{
 	padding: 1rem;
