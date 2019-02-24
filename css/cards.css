@@ -9,6 +9,7 @@
         -ms-transform: rotateY(0deg);
         transform: rotateY(0deg);
         border-radius: .25rem;
+
     }
 
     .image-flip:active .frontside,
@@ -17,6 +18,8 @@
         -moz-transform: rotateY(180deg);
         -o-transform: rotateY(180deg);
         transform: rotateY(180deg);
+        padding-bottom: 3.5rem;
+        margin-bottom: 3rem;
     }
    
 }
@@ -38,6 +41,7 @@
         -moz-transform: rotateY(180deg);
         -o-transform: rotateY(180deg);
         transform: rotateY(180deg);
+        margin-bottom: 3rem;
     }
     
 
@@ -52,6 +56,7 @@
         -ms-transform: rotateY(0deg);
         transform: rotateY(0deg);
         border-radius: .25rem;
+
     }
 
     .image-flip:hover .frontside,
@@ -60,6 +65,7 @@
         -moz-transform: rotateY(180deg);
         -o-transform: rotateY(180deg);
         transform: rotateY(180deg);
+        margin-bottom: 3rem;
     }
 }
 @media (min-height: 992px) {
@@ -79,6 +85,7 @@
         -moz-transform: rotateY(180deg);
         -o-transform: rotateY(180deg);
         transform: rotateY(180deg);
+        margin-bottom: 3rem;
     }
 }
 @media (min-height: 1200px) {
@@ -98,25 +105,26 @@
        -moz-transform: rotateY(180deg);
        -o-transform: rotateY(180deg);
        transform: rotateY(180deg);
+      margin-bottom: 3rem;
    }
 }
 
-
-
 .btn-primary {
-    background-color:#2f3360;
     border: none;
     font-size: 1.3rem;
     margin-top: .5rem;
 }
 
-.btn-primary:hover{
+.btn-vermas {
     background-color:#2f3360;
-    border: none;
+}
+
+.btn-vermas:hover{
+    background-color:#2f3360;
 }
 
 section {
-    padding: 10px 0;
+    padding: 0px 0;
     font-size: 1.3rem;
     font-family: 'Harmattan', sans-serif;
 }
@@ -156,7 +164,7 @@ section h4{
     -webkit-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     z-index: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
 }
 
 .backside {

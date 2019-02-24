@@ -59,9 +59,46 @@
 /*INDEX*/
 
 .titulos{
-
 	text-align: center;
 	font-family: 'Staatliches', cursive;
+}
+
+.card-text{
+	text-align: justify;
+}
+
+.creditos{
+	text-align: center;
+}
+
+.creditosrow{
+	margin: 1.5rem 0 1rem;
+}
+
+.card-title{
+	font-size: 2rem;
+	text-align: left;
+}
+
+.card-body{
+	align-content: center;
+	text-align: center;
+	font-family: 'Harmattan', sans-serif;
+}
+
+.btn-publicacion{
+	background-color:#e54e21;
+	border-style:solid;
+	border-color: #e54e21;
+	border-width: 2px;
+	color: white;
+}
+.btn-publicacion:hover{
+	background-color: white;
+	border-style:solid;
+	border-color: #e54e21;
+	border-width: 2px;
+	color: #e54e21;
 }
 
 
