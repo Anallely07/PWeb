@@ -7,6 +7,21 @@
 	font-family: 'Harmattan', sans-serif;
 }
 
+
+.dropdown-menu{
+	background-color:  white;
+	color: white;
+	font-size: 1.3rem;
+	font-family: 'Harmattan', sans-serif;
+}
+.dropdown-menu .dropdown-item:hover{
+	background-color:  #2f3360;
+	color:white;
+	font-size: 1.3rem;
+	font-family: 'Harmattan', sans-serif;
+}
+
+
 .nav-link{
 	margin-left: 1rem;
 }
