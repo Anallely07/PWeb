@@ -38,6 +38,14 @@
 	.publicacionesindex .card{
 	margin: 0 .5rem .5rem;}
 
+	.textopublicacion{
+	font-size: 1.2rem;
+	}
+
+	.nombrearticulo, .reply{
+	font-size: 1.4rem;
+	text-align: center;
+}
 
 }
 
@@ -75,11 +83,18 @@
 		font-size: 1.2rem;
 	}
 
-
-
 	footer, .copyright{
 		font-size: .85rem;
 	}
+
+	.textopublicacion{
+	font-size: 1.2rem;
+	}
+	.nombrearticulo, .reply{
+	font-size: 1.4rem;
+	text-align: center;
+}
+
 
 }
 
@@ -116,6 +131,17 @@
 		font-size: 1.3rem;
 	}
 
+	.textopublicacion{
+	font-size: 1.3rem;
+	}
+	.nombrearticulo{
+	font-size: 2.3rem;
+	text-align: left;
+}
+	.reply{
+		text-align: left;
+		font-size: 2rem;
+	}
 
 	footer, .copyright{
 		font-size: 1rem;
@@ -152,11 +178,21 @@
 	.card-body{
 		font-size: 1.3rem;
 	}
-
-
+	.textopublicacion{
+	font-size: 1.3rem;
+	}
+	.nombrearticulo{
+	font-size: 2.3rem;
+	text-align: left;
+}
 	footer, .copyright{
 		font-size: 1rem;
 	}
+	.reply{
+		text-align: left;
+		font-size: 2rem;
+	}
+
 }
 @media (min-height: 1200px) {
 	.carousel h1{
@@ -189,6 +225,14 @@
 	}
 	.card-body{
 		font-size: 1.3rem;
+	}
+	.nombrearticulo{
+	font-size: 2.3rem;
+	text-align: left;
+}
+	.reply{
+		text-align: left;
+		font-size: 2rem;
 	}
 
 	footer{
