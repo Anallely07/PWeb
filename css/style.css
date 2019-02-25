@@ -380,6 +380,40 @@
 }
 /* .FAQ*/
 
+/*SESIONES*/
+
+.forms h6{
+	font-family: 'Harmattan', sans-serif;
+}
+
+.forms .form-control{
+	margin-bottom: .5rem;
+}
+
+.reg{
+	color: black;
+}
+.reg:hover{
+	color: green;
+}
+
+.registro{
+	font-family: 'Harmattan', sans-serif;
+}
+.registro .form-control{
+	margin-bottom: .5rem;
+}
+
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+ 
+}
+
+/* ./SESIONES */
+
 /*FOOTER*/
 footer{
 	padding: 1rem;
@@ -390,7 +424,7 @@ footer{
 }
 
 /*.footercomplete{
-	 position: absolute;
+	position: absolute;
   bottom: 0;
   width: 100%;
 }*/

@@ -36,6 +36,10 @@
 		font-size: 1.2rem;
 	}
 
+	.forms{
+	padding: 0 1rem;
+	}
+
 
 	footer, .copyright{
 		font-size: .85rem;
@@ -44,7 +48,7 @@
 	.publicacionesindex .card{
 	margin: 0 .5rem .5rem;}
 
-	.textopublicacion{
+	.textopublicacion, .forms h6{
 	font-size: 1.2rem;
 	}
 
@@ -123,13 +127,16 @@
 	.convocatoria h2{
 		font-size: 1.3rem;
 	}
+	.forms{
+	padding: 0 1rem;
+	}
 
 
 	footer, .copyright{
 		font-size: .85rem;
 	}
 
-	.textopublicacion{
+	.textopublicacion, .forms h6{
 	font-size: 1.2rem;
 	}
 	.nombrearticulo, .reply{
@@ -190,7 +197,11 @@
 		font-size: 1.3rem;
 	}
 
-	.textopublicacion{
+	.forms{
+	padding: 0 3rem;
+	}
+
+	.textopublicacion,.forms h6{
 	font-size: 1.3rem;
 	}
 	.nombrearticulo{
@@ -263,7 +274,7 @@
 	.card-body{
 		font-size: 1.3rem;
 	}
-	.textopublicacion{
+	.textopublicacion,.forms h6{
 	font-size: 1.3rem;
 	}
 	.nombrearticulo{
@@ -277,7 +288,9 @@
 	.convocatoria h2{
 		font-size: 1.8rem;
 	}
-
+	.forms{
+	padding: 0 3rem;
+	}
 
 	footer, .copyright{
 		font-size: 1rem;
@@ -353,7 +366,9 @@
 	.convocatoria h2{
 		font-size: 1.8rem;
 	}
-
+	.forms{
+	padding: 0 3rem;
+	}
 
 	footer{
 		font-size: 1.3rem;

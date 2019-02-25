@@ -112,95 +112,132 @@
 	<!-- ./NAVBAR -->
 
 	<div class="container faq">		
-			<h2 class="titulofaq">Inicia tu sesión</h2>
+		<h2 class="titulofaq">Inicia tu sesión</h2>
 	</div>
-		
-		<hr>
-		<div class="jumbotron jumbotron-fluid">
-			<div class="container">
-				<h2 class="faqh2">¿Quiénes somos?</h2>
-				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aliquid necessitatibus voluptas enim ratione suscipit temporibus ea eveniet alias neque repellat, assumenda tenetur blanditiis nulla nostrum architecto perferendis eaque quod itaque omnis placeat maxime a aliquam fugit! Ipsa quidem alias, id repellat doloremque similique praesentium reprehenderit, voluptatibus ex delectus soluta?</p>
-			</div>
-		</div>
-		<div class="jumbotron jumbotron-fluid">
-			<div class="container">
-				<h2 class="faqh2">¿Dónde nos ubicamos?</h2>
-				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aliquid necessitatibus voluptas enim ratione suscipit temporibus ea eveniet alias neque repellat, assumenda tenetur blanditiis nulla nostrum architecto perferendis eaque quod itaque omnis placeat maxime a aliquam fugit! Ipsa quidem alias, id repellat doloremque similique praesentium reprehenderit, voluptatibus ex delectus soluta?</p>
-				<div class="center">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.9522021890953!2d-99.18424994993886!3d19.327880286879758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce000454d028e9%3A0x4a85a53ac30dc37b!2sPROTECO!5e0!3m2!1ses-419!2smx!4v1551078523066" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<hr>
+
+	<!-- form -->
+	<div class="container forms">
+		<form> 
+			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+			<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small><hr>
+			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña"><hr>
+			<div class="row">
+				<div class="col-sm-12 col-md-3"><button type="button" style="width: 100%;" class="btn btn-primary btn-lg btn-block btn-success btn-modal">Inicar sesión</b></button></div>
+				<div class="col-sm-12 col-md-3"><button type="button" style="width: 100%;" class="btn btn-primary btn-lg btn-block btn-warning btn-modal">Olvidé mi contraseña</button></div>
+				<div class="col-sm-12 col-md-3"></div>
+				<div class="col-sm-12 col-md-3"></div>
+			</div>	 	
+			<hr>
+
+			<!-- modal registro -->
+			<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title titulos">Registar una cuenta</h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<form> 
+								<div class="row">
+									<div class="col-sm-6 col-md-4">
+										<input class="form-control" type="text" placeholder="Apellido Paterno">
+									</div>
+									<div class="col-sm-6 col-md-4">
+										<input class="form-control" type="text" placeholder="Apellido Materno">
+									</div>
+									<div class="col-sm-6 col-md-4">
+										<input class="form-control" type="text" placeholder="Nombre(s)">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4">
+										<input class="form-control" type="text" placeholder="Numero de cuenta">
+									</div>
+									<div class="col-md-4">
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>Facultad de Ingeniería</option>
+											<option>Facultad de Química</option>
+											<option>Facultad de Contaduría</option>
+											<option>Medicina</option>
+											<option>Economía</option>
+										</select>
+									</div>
+									<div class="col-md-4">
+										<input class="form-control" type="email" placeholder="E-mail">
+									</div>
+								</div><hr>
+								<div class="row">
+									<div class="col-sm-6">
+										
+									</div>
+									<div class="col-sm-6">
+										<input class="form-control" type="password" placeholder="Contraseña">
+										<input class="form-control" type="password" placeholder="Verificar contraseña">
+									</div>									
+								</div>
+
+								<hr>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>						
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="jumbotron jumbotron-fluid">
-			<div class="container">
-				<h2 class="faqh2">¿Dónde los puedo contactar?</h2>
-				<p class="lead">Contáctanos en: </p>
-				<div class="row">
-					<div class="col-sm-6 col-md-2"><a href="https://www.facebook.com/proteco/"><img src="img/fb.png" alt=""></a></div>
-					<div class="col-sm-6 col-md-2"><a href="https://www.instagram.com/protecounam/?hl=es-la"><img src="img/instag.png" alt=""></a></div>
-					<div class="col-sm-6 col-md-2"><a href="https://twitter.com/proteco?lang=es"><img src="img/tw.png" alt=""></a></div>
-					<div class="col-sm-6 col-md-2"><a href="#"><img src="img/gmail.png" alt=""></a></div>
-					<div class="col-sm-6 col-md-4"><img src="img/phone.png" alt=""><b id="tel">01 55 5622 3045</b></div>
-				</div>
-			</div>
-		</div>
-		<div class="jumbotron jumbotron-fluid">
-			<div class="container">
-				<h2 class="faqh2">¿Quiénes somos?</h2>
-				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aliquid necessitatibus voluptas enim ratione suscipit temporibus ea eveniet alias neque repellat, assumenda tenetur blanditiis nulla nostrum architecto perferendis eaque quod itaque omnis placeat maxime a aliquam fugit! Ipsa quidem alias, id repellat doloremque similique praesentium reprehenderit, voluptatibus ex delectus soluta?</p>
-			</div>
-		</div>
-		<div class="jumbotron jumbotron-fluid">
-			<div class="container">
-				<h2 class="faqh2">¿Quiénes somos?</h2>
-				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aliquid necessitatibus voluptas enim ratione suscipit temporibus ea eveniet alias neque repellat, assumenda tenetur blanditiis nulla nostrum architecto perferendis eaque quod itaque omnis placeat maxime a aliquam fugit! Ipsa quidem alias, id repellat doloremque similique praesentium reprehenderit, voluptatibus ex delectus soluta?</p>
-			</div>
-		</div>
-	</div>
+			<!-- ./modal registro -->
+
+			<h6>¿No tienes una cuenta? <a class="reg"  data-toggle="modal" data-target="#exampleModalCenter" href="registrar.html"><b>Regístrate</b></a></h6>
+	 	<!-- <button type="button" class="btn btn-primary btn-sm reg" data-toggle="modal" data-target="#exampleModal">
+													Ver mas
+												</button>	 -->	
+											</form>
+										</div>
+
+										<div class="footercomplete">
+											<footer>
+												<div class="container">
+													<div class="page-footer">
+														<div class="row">
+															<div class="col-sm-12">
+																<p>Contáctanos en:</p> 
+																<a href="#"><img class="iconos" src="img/iconos/png/005-boton-del-logo-de-facebook.png" alt="Facebook de PROTECO"></a>
+																<a href="#"><img  class="iconos"  src="img/iconos/png/003-logo-de-instagram.png" alt="Instagram de PROTECO"></a>
+																<a href="#"><img src="img/iconos/png/004-boton-de-logo-del-twitter.png" alt="Twitter de PROTECO"></a>
+																<a href="#"><img class="iconos" src="img/iconos/png/002-logo-de-youtube.png" alt="YouTube de PROTECO"></a>
+																<a href="#"><img class="iconos" src="img/iconos/png/001-sobre-cerrado.png" alt="Mail de PROTECO"></a>
+															</div>
+														</div><br>
+														<div class="row">
+															<div class="col-sm-12 col-md-6">
+																<p>Ubicación:   Edificio Q "Luis G. Valdés Vallejo", 2do piso PROTECO, Anexo de Ingeniería, Ciudad Universitaria, Ciudad de México.</p>
+															</div>
+															<div class="col-sm-12 col-md-6">
+																<p>Teléfono: 01 55 5622 3045</p>
+															</div>		  
+														</div>				
+													</div>
+												</div>
+											</footer>
+											<div class="copyright">
+												<p>© 2017 Programa de Tecnología en Cómputo. Universidad Nacional Autónoma de México. Facultad de Ingeniería. Todos los derechos reservados.</p>
+											</div>
+										</div>
+										<!-- ./FOOTER -->
+
+									</body>
+
+									<!-- ./CONTENIDO-->
 
 
-	
+									<script src="js/jQuery.js"></script>
+									<script src="js/bootstrap.js"></script>
+									<script src="js/jquery-3.3.1.min.js"></script>
+									<script src="js/app.js"></script>
 
-
-	<footer>
-		<!-- FOOTER -->
-		<div class="container">
-			<div class="page-footer">
-				<div class="row">
-					<div class="col-sm-12">
-						<p>Contáctanos en:</p> 
-						<a href="#"><img class="iconos" src="img/iconos/png/005-boton-del-logo-de-facebook.png" alt="Facebook de PROTECO"></a>
-						<a href="#"><img  class="iconos"  src="img/iconos/png/003-logo-de-instagram.png" alt="Instagram de PROTECO"></a>
-						<a href="#"><img src="img/iconos/png/004-boton-de-logo-del-twitter.png" alt="Twitter de PROTECO"></a>
-						<a href="#"><img class="iconos" src="img/iconos/png/002-logo-de-youtube.png" alt="YouTube de PROTECO"></a>
-						<a href="#"><img class="iconos" src="img/iconos/png/001-sobre-cerrado.png" alt="Mail de PROTECO"></a>
-					</div>
-				</div><br>
-				<div class="row">
-					<div class="col-sm-12 col-md-6">
-						<p>Ubicación:   Edificio Q "Luis G. Valdés Vallejo", 2do piso PROTECO, Anexo de Ingeniería, Ciudad Universitaria, Ciudad de México.</p>
-					</div>
-					<div class="col-sm-12 col-md-6">
-						<p>Teléfono: 01 55 5622 3045</p>
-					</div>		  
-				</div>				
-			</div>
-		</div>
-	</footer>
-	<div class="copyright">
-		<p>© 2017 Programa de Tecnología en Cómputo. Universidad Nacional Autónoma de México. Facultad de Ingeniería. Todos los derechos reservados.</p>
-	</div>
-	<!-- ./FOOTER -->
-
-</body>
-
-<!-- ./CONTENIDO-->
-
-
-<script src="js/jQuery.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/app.js"></script>
-
-</html>
+									</html>
 
