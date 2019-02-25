@@ -437,6 +437,32 @@
 
 /* ./SESIONES */
 
+/*PERFIL*/
+.perf{
+	margin-top: 2rem;
+}
+.perfil{
+	margin-top: 2rem;
+}
+
+.perfil p{
+	text-align: justify;
+}
+
+.perfil h1{
+	text-align: left;
+	font-family: 'Staatliches', cursive;
+}
+
+.olvidar .form-group{
+	width: 100%;
+}
+
+.olvidar{
+	padding: 1rem 10vw;
+}
+/* ./PERFIL */
+
 /*FOOTER*/
 footer{
 	padding: 1rem;

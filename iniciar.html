@@ -124,11 +124,36 @@
 			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña"><hr>
 			<div class="row">
 				<div class="col-sm-12 col-md-3"><button type="button" style="width: 100%;" class="btn btn-primary btn-lg btn-block btn-success btn-modal">Inicar sesión</b></button></div>
-				<div class="col-sm-12 col-md-3"><button type="button" style="width: 100%;" class="btn btn-primary btn-lg btn-block btn-warning btn-modal">Olvidé mi contraseña</button></div>
+				<div class="col-sm-12 col-md-3"><button data-toggle="modal" data-target="#exampleModalolvido" type="button" style="width: 100%;" class="btn btn-primary btn-lg btn-block btn-warning btn-modal">Olvidé mi contraseña</button></div>
 				<div class="col-sm-12 col-md-3"></div>
 				<div class="col-sm-12 col-md-3"></div>
 			</div>	 	
 			<hr>
+			
+			<!-- modal olvido -->
+			<div class="modal fade" id="exampleModalolvido" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title titulos">Recuperacion de contraseñas</h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>Escribe tu e-mail con el que estabas registrado para que te podamos mandar las instrucciones a tu cuenta</p>
+							<input class="form-control" type="text" placeholder="e-mail">
+							<div class="center close-reg">
+							<div>
+								<button type="button" class="btn btn-success" data-dismiss="modal">Enviar</button>						
+							</div>
+							</div><br><hr>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- ./modal olvido -->
 
 			<!-- modal registro -->
 			<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
