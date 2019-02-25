@@ -45,7 +45,19 @@
 	.nombrearticulo, .reply{
 	font-size: 1.4rem;
 	text-align: center;
-}
+	}
+
+	.modaltitulos{
+		font-size: 1.6rem;
+	}
+
+	.modaltitle{
+		font-size: 1.5rem;
+	}
+
+	.modalul{
+		font-size:1.2rem;
+	}
 
 }
 
@@ -93,7 +105,19 @@
 	.nombrearticulo, .reply{
 	font-size: 1.4rem;
 	text-align: center;
-}
+	}
+	.modaltitulos{
+		font-size: 1.6rem;
+	}
+
+	.modaltitle{
+		font-size: 1.5rem;
+	}
+
+	.modalul{
+		font-size:1.2rem;
+	}
+
 
 
 }
@@ -146,6 +170,17 @@
 	footer, .copyright{
 		font-size: 1rem;
 	}
+	.modaltitulos{
+		font-size: 2rem;
+	}
+
+	.modaltitle{
+		font-size: 1.8rem;
+	}
+
+	.modalul{
+		font-size:1.5rem;
+	}
 }
 @media (min-height: 992px) {
 	.carousel h1{
@@ -192,6 +227,17 @@
 		text-align: left;
 		font-size: 2rem;
 	}
+	.modaltitulos{
+		font-size: 2rem;
+	}
+
+	.modaltitle{
+		font-size: 1.8rem;
+	}
+
+	.modalul{
+		font-size:1.5rem;
+	}
 
 }
 @media (min-height: 1200px) {
@@ -237,6 +283,17 @@
 
 	footer{
 		font-size: 1.3rem;
+	}
+	.modaltitulos{
+		font-size: 2rem;
+	}
+
+	.modaltitle{
+		font-size: 1.8rem;
+	}
+
+	.modalul{
+		font-size:1.5rem;
 	}
 }
 

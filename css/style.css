@@ -14,13 +14,13 @@
 	font-size: 1.3rem;
 	font-family: 'Harmattan', sans-serif;
 }
+
 .dropdown-menu .dropdown-item:hover{
 	background-color:  #2f3360;
 	color:white;
 	font-size: 1.3rem;
 	font-family: 'Harmattan', sans-serif;
 }
-
 
 .nav-link{
 	margin-left: 1rem;
@@ -259,6 +259,54 @@
 .modal-content{
 	padding: 1.5rem;
 }
+
+.modaltitulos{
+	font-family: 'Staatliches', cursive;
+}
+
+.modaltitle{
+	font-family: 'Harmattan', sans-serif;
+	font-weight: bold;
+}
+
+.modalul{
+	font-family: 'Harmattan', sans-serif;
+}
+
+.btn-modal{
+	width: 100%;
+	font-size: 2rem;
+	font-family: 'Harmattan', sans-serif;
+	margin-bottom: .5rem;
+	line-height: 110%;
+	color: black;
+}
+.btn-modal:hover{
+	color: white;
+}
+
+.modalrow{
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	padding: 0;
+	margin: 0 0 1rem 0;
+}
+
+.settings-tab{
+	color: white;
+	font-family: 'Harmattan', sans-serif;
+}
+
+.img-modal{
+	height: 90%; 
+	background-color: white;
+}
+
+.close-modal{
+	background-color: white;
+}
+
 
 /*./CURSOS*/
 
