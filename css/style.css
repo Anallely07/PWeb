@@ -311,6 +311,75 @@
 /*./CURSOS*/
 
 
+/*CONVOCATORIA*/
+.convocatoria{
+	font-family: 'Harmattan', sans-serif;
+	line-height: 100%;
+	text-align: justify;
+}
+
+.convocatoria h2{
+	font-weight: bold;
+}
+
+.pasos>li{
+	margin-bottom: 0;
+	line-height: 50%;
+}
+
+.download{
+	margin: 0;
+	padding: 0px;
+	height: 25px;
+	float: right;
+	/*border-radius: 50%;*/
+}
+
+.convlist{
+	vertical-align: center;
+	font-weight: bold;
+}
+
+.titulos-aceptados{
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	padding: 0;
+	color: white;
+}
+
+.titulos-aceptados>a>h2{
+	padding: .3rem 1rem 0;
+	color: white;
+}
+
+.center{
+	text-align: center;
+	margin: 0 0 2rem 0;
+}
+
+/* ./CONVOCATORIA */
+
+/*FAQ*/
+
+.faq{
+	margin-top: 1.5rem;
+	padding: 1.5rem .5 1.5rem .5;
+	text-align: justify;
+}
+.titulofaq{
+	text-align: left;
+	font-family: 'Staatliches', cursive;
+}
+.faqh2{
+	padding-top: .5rem;
+	font-weight: 550;
+}
+
+#tel{
+	padding-left: 1rem;
+}
+/* .FAQ*/
+
 /*FOOTER*/
 footer{
 	padding: 1rem;

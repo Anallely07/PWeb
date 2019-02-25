@@ -16,6 +16,12 @@
 		font-size: 1.5rem;
 		margin: 1rem 0;	
 	}
+	.titulos-aceptados h2{
+		font-size: 1.2rem;
+	}
+	.titulofaq{
+		font-size: 1.5rem;
+	}
 	.publicacionesimg {
     width: 120px;
     height: 120px;
@@ -59,6 +65,16 @@
 		font-size:1.2rem;
 	}
 
+	.convocatoria{
+		font-size: 1rem;
+		padding: 1.5rem 1rem;
+	}
+
+	.convocatoria h2{
+		font-size: 1.3rem;
+	}
+
+
 }
 
 @media (min-height: 400px) {
@@ -75,9 +91,15 @@
 		font-size: 1.5rem;
 		padding-top: .5rem;
 	}
+	.titulofaq{
+		font-size: 1.5rem;
+	}
 	.titulos h2{
 		font-size: 1.5rem;
 		margin: 1rem 0;	
+	}
+	.titulos-aceptados h2{
+		font-size: 1.2rem;
 	}
 	.publicacionesindex .card{
 	margin: 0 .5rem .5rem;}
@@ -94,6 +116,14 @@
 	.card-body{
 		font-size: 1.2rem;
 	}
+	.convocatoria{
+		font-size: 1rem;
+		padding: 1.5rem 1rem;
+	}
+	.convocatoria h2{
+		font-size: 1.3rem;
+	}
+
 
 	footer, .copyright{
 		font-size: .85rem;
@@ -138,9 +168,14 @@
 		font-size: 2.8rem;
 		margin: 1.5rem 0;	
 	}
-
+	.titulos-aceptados h2{
+		font-size: 2.2rem;
+	}
+	.titulofaq{
+		font-size: 2.3rem;
+	}
 	.publicacionesindex .card{
-	margin: 0 4rem 2rem;}
+	margin: 0 2rem 2rem;}
 
 	.publicacionesimg {
     width: 170px;
@@ -166,6 +201,15 @@
 		text-align: left;
 		font-size: 2rem;
 	}
+
+	.convocatoria{
+		font-size: 1.2rem;
+		padding: 1.5rem 1.5rem;
+	}
+	.convocatoria h2{
+		font-size: 1.8rem;
+	}
+
 
 	footer, .copyright{
 		font-size: 1rem;
@@ -198,6 +242,12 @@
 		font-size: 3rem;
 		margin: 2rem 0;
 	}
+	.titulos-aceptados h2{
+		font-size: 2.2rem;
+	}
+	.titulofaq{
+		font-size: 2.3rem;
+	}
 	.publicacionesindex .card{
 	margin: 0 4rem 2rem;}
 
@@ -219,7 +269,16 @@
 	.nombrearticulo{
 	font-size: 2.3rem;
 	text-align: left;
-}
+	}
+	.convocatoria{
+		font-size: 1.2rem;
+		padding: 1.5rem 2.5rem;
+	}
+	.convocatoria h2{
+		font-size: 1.8rem;
+	}
+
+
 	footer, .copyright{
 		font-size: 1rem;
 	}
@@ -256,6 +315,13 @@
 		font-size: 3rem;
 		margin: 2rem 0;
 	}
+	.titulofaq{
+		font-size: 2.3rem;
+	}
+	.titulos-aceptados h2{
+		font-size: 2.2rem;
+	}
+
 	.publicacionesindex .card{
 	margin: 0 4rem 2rem;}
 
@@ -280,6 +346,14 @@
 		text-align: left;
 		font-size: 2rem;
 	}
+	.convocatoria{
+		font-size: 1.2rem;
+		padding: 1.5rem 2.5rem;
+	}
+	.convocatoria h2{
+		font-size: 1.8rem;
+	}
+
 
 	footer{
 		font-size: 1.3rem;
